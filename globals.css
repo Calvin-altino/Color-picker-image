@@ -1,0 +1,50 @@
+
+#roda{
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  font-size: 9v;
+  border-radius: 10px;
+ 
+  
+}
+
+
+p{
+  text-align: center;
+  font-size:  30px;
+  margin-bottom: -2px;
+}
+
+#imagem{
+  max-width: 700px;
+  margin-inline: auto;
+  font-size: 30px;
+ 
+}
+
+@media (max-width: 767px){
+  #roda{
+    background-color: red;
+    width: 140px;
+    height: 140px;
+   
+    border-radius: 10px;
+
+    
+  }
+
+  #imagem{
+    
+    max-width: fit-content;
+    font-size: 21px;
+    margin-inline: auto;
+  }
+  
+  #formFileLg{
+    font-size: 30px;
+    margin-left: -50px;
+    width: 250px;
+    margin-bottom: 50px;
+  }
+}
